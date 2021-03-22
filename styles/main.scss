@@ -1,0 +1,145 @@
+.upper__container {
+    max-width: 1900px;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        ul {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+        }
+        ul:hover {
+            text-decoration: underline;
+            a:hover {
+                color: aqua;
+            }
+        }
+
+    }
+    .right {
+        ul {
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: beige;
+        }
+    
+        padding-right: 20px;
+    }
+
+    a {
+        color: grey;
+        text-decoration: none;
+    }
+    select {
+        border: none;
+        color: grey;
+    } 
+    select:hover {
+
+        color: beige;
+    }
+}
+i {
+    color: black;
+}
+.central__container {
+    padding-left: 15px;
+    max-width: 1900px;
+    display: flex;
+    justify-content: space-between;
+
+   .fa-heart:hover {
+    color: red;
+   }
+   .fa-shopping-basket:hover {
+       color: green;
+   }
+    a {
+        text-decoration: none;
+    }
+
+    .left {
+        max-width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+
+        form img {
+            height: 25px;
+            width: 25px;
+            margin-left: 15px;
+        }
+     
+
+        input {
+            height: 67px;
+            border: none;
+        }
+
+    }
+    .right {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        padding-right: 20px;
+    }
+
+        a {
+            color: grey;
+            column-gap: 20px;
+        }
+        a:hover {
+            text-decoration: none;
+            color: brown;
+        } 
+}
+.bottom__container {
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+   
+    .center {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        align-content: center;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    div {
+        height: 67px;
+        width: 100px;
+        background-color: grey;
+    }
+    ul {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        padding-right: 10px;
+        background-color: grey;
+        height: 67px;
+        a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+    }
+
+}

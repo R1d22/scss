@@ -1,0 +1,132 @@
+.upper__container {
+  max-width: 1900px;
+  display: flex;
+  justify-content: space-between;
+}
+.upper__container .left ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.upper__container .left ul:hover {
+  text-decoration: underline;
+}
+.upper__container .left ul:hover a:hover {
+  color: aqua;
+}
+.upper__container .right {
+  padding-right: 20px;
+}
+.upper__container .right ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.upper__container .right a:hover {
+  text-decoration: underline;
+  color: beige;
+}
+.upper__container a {
+  color: grey;
+  text-decoration: none;
+}
+.upper__container select {
+  border: none;
+  color: grey;
+}
+.upper__container select:hover {
+  color: beige;
+}
+
+i {
+  color: black;
+}
+
+.central__container {
+  padding-left: 15px;
+  max-width: 1900px;
+  display: flex;
+  justify-content: space-between;
+}
+.central__container .fa-heart:hover {
+  color: red;
+}
+.central__container .fa-shopping-basket:hover {
+  color: green;
+}
+.central__container a {
+  text-decoration: none;
+}
+.central__container .left {
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.central__container .left form img {
+  height: 25px;
+  width: 25px;
+  margin-left: 15px;
+}
+.central__container .left input {
+  height: 67px;
+  border: none;
+}
+.central__container .right {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-right: 20px;
+}
+.central__container a {
+  color: grey;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.central__container a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.bottom__container {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.bottom__container .center {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.bottom__container a {
+  text-decoration: none;
+  color: black;
+}
+.bottom__container div {
+  height: 67px;
+  width: 100px;
+  background-color: grey;
+}
+.bottom__container ul {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-right: 10px;
+  background-color: grey;
+  height: 67px;
+}
+.bottom__container ul a:hover {
+  text-decoration: underline;
+  color: blue;
+}/*# sourceMappingURL=main.css.map */
